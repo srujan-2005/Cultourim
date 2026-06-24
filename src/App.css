@@ -1,0 +1,27 @@
+@import url("https://fontlibrary.org//face/dogica");
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin 'tailwind-scrollbar';
+
+
+:root{
+    --font-dogica: "DogicaPixelRegular", sans-serif;
+}
+
+
+@font-face {
+    font-family: 'DogicaPixelRegular';
+    src: url('D:\pavan\projects\191.Brain.exe_stopped_working\cultourim\src\assets\font\OTF\dogica.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .font-pixel {
+    font-family: 'DogicaPixelRegular', monospace;
+  }
+
+  .pixelated-icon {
+    image-rendering: pixelated;
+    filter: contrast(150%) brightness(120%);
+  }
+

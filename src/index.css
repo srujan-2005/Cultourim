@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+/* Add this in your global CSS or Tailwind config if using raw CSS */
+.mask-icon {
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="black" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4v4m0 8v4m0-4h4m-4 0H8m4-8h4m-4 0H8m0 4a4 4 0 108 0 4 4 0 10-8 0z"/></svg>');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+  
+    mask-image: url('data:image/svg+xml;utf8,<svg fill="none" stroke="black" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4v4m0 8v4m0-4h4m-4 0H8m4-8h4m-4 0H8m0 4a4 4 0 108 0 4 4 0 10-8 0z"/></svg>');
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+  }
+  
